@@ -1,0 +1,12 @@
+#Write a Python script to create a list of first N natural numbers.
+
+"""
+list_1=[]
+for x in range(int(input('Enter N Value : '))):
+    list_1.append(x+1)
+
+print('List of First N Natural Numbers :',list_1)
+"""
+
+list_1=[x+1 for x in range(int(input('Enter N Value : ')))]
+print('List of First N Natural Numbers :',list_1)
